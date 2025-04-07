@@ -1,31 +1,25 @@
 pipeline {
     agent any
-    
+
     stages {
-        stage("Install Dependencies") {
+        stage('Install Dependencies') {
             steps {
-                sh "cd frontend && npm install"
-                sh "cd backend && npm install"
+                bat 'npm install'
             }
         }
-        
-        stage("Run Tests") {
+        stage('Run Tests') {
             steps {
-                sh "cd frontend && npm test"
-                sh "cd backend && npm test"
+                bat 'npm test'
             }
         }
-        
-        stage("Build") {
+        stage('Build') {
             steps {
-                sh "cd frontend && npm run build"
+                bat 'npm run build'
             }
         }
-        
-        stage("Deploy") {
+        stage('Deploy') {
             steps {
-                echo "Deploying to production..."
-                // Deployment steps will go here
+                echo 'Deployment stage (customize this as needed)'
             }
         }
     }
