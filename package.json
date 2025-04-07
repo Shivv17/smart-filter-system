@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Running tests...\""
+    "test": "echo \"Running tests...\"",
+    "build": "echo \"Building project...\""
   },
   "repository": {
     "type": "git",
