@@ -1,0 +1,23 @@
+{
+  "name": "smart-filter-system",
+  "version": "1.0.0",
+  "description": "A comprehensive filtering system with React frontend and Node.js backend.",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivv17/smart-filter-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivv17/smart-filter-system/issues"
+  },
+  "homepage": "https://github.com/Shivv17/smart-filter-system#readme"
+}
