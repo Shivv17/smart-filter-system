@@ -1,0 +1,7 @@
+stage('Install Dependencies') {
+  steps {
+    dir('frontend') {
+      bat 'npm install'
+    }
+  }
+}
